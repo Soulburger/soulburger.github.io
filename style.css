@@ -14,7 +14,7 @@ body {
     background-color: var(--color3);
     width: 600px;
     border: 15px solid var(--color2);
-    padding: 50px;
+    padding: 20px;
     margin: auto;
   }
 
