@@ -16,6 +16,7 @@ body {
     border: 15px solid var(--color2);
     padding: 20px;
     margin: auto;
+    border-radius: 10px;
   }
 
 .center {
