@@ -8,55 +8,5 @@ body {
     background-color: var(--color1);
 	font-family: "Courier New";
     font-weight: bold
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-table {
-    border: 5px solid var(--color2);
-    background-color: var(--color2);
-    width: 650px;
-    margin: auto;
-}
-
-#main {
-    width: 650px;
-}
-
-.main-title {
-    height: 40px;
-}
-
-#title-0 {
-    border: 1px solid black;
-}
-
-tbody {
-    border: 5px solid #c6c6c6;
-}
-
-th {
-    padding: 10px;
-    font-size: 30px;
-}
-th a {
-    font-size: 25px;
-}
-
-tr {
-    background-color: var(--color3);
-}
-
-td {
-    padding: 30px;
-}
-
-td a {
-    font-weight: bold;
+    color = white
 }
