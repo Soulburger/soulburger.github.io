@@ -10,7 +10,7 @@ body {
     font-weight: bold;
 }
 
-div {
+.box {
     background-color: var(--color3);
     width: 600px;
     border: 15px solid var(--color2);
