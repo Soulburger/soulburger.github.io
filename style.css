@@ -1,6 +1,6 @@
 :root {
     --color1: #0d001a;
-    --color2: #572886;
+    --color2: #2c0093;
     --color3: #9a83cf;
 }
 
@@ -10,3 +10,11 @@ body {
     font-weight: bold;
     color: white;
 }
+
+div {
+    background-color: var(--color3);
+    width: 600px;
+    border: 15px solid var(--color2);
+    padding: 50px;
+    margin: auto;
+  }
