@@ -1,18 +1,97 @@
 var words = [
 	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+	"sharp",
+	"ruby",
+    "accolade",
+    "acrimony",
+    "angst",
+    "anomaly",
+    "antidote",
+    "baroque",
+    "boondoggle",
+    "bourgeois",
+    "bravado",
+    "brogue",
+    "brusque",
+    "byzantine",
+    "cacophony",
+    "camaraderie",
+    "capricious",
+    "caustic",
+    "charisma",
+    "cloying",
+    "dichotomy",
+    "dilettante",
+    "disheveled",
+    "elan",
+    "ennui",
+    "epitome",
+    "equanimity",
+    "equivocate",
+    "esoteric",
+    "euphemism",
+    "fastidious",
+    "fiasco",
+    "finagle",
+    "glib",
+    "gregarious",
+    "haram",
+    "harbinger",
+    "hedonist",
+    "heresy",
+    "idiosyncratic",
+    "idyllic",
+    "indelicate",
+    "infinitesimal",
+    "insidious",
+    "junket",
+    "kitsch",
+    "litany",
+    "lurid",
+    "machiavellian",
+    "malaise",
+    "malinger",
+    "mantra",
+    "maudlin",
+    "mercenary",
+    "minimalist",
+    "misnomer",
+    "narcissist",
+    "nirvana",
+    "oblivion",
+    "ogle",
+    "ostentatious",
+    "ostracize",
+    "panacea",
+    "paradox",
+    "peevish",
+    "perfunctory",
+    "philistine",
+    "precocious",
+    "propriety",
+    "quintessential",
+    "revel",
+    "rhetoric",
+    "scintillating",
+    "spartan",
+    "stigma",
+    "stoic",
+    "suave",
+    "svengali",
+    "sycophant",
+    "teetotaler",
+    "tirade",
+    "tryst",
+    "ubiquitous",
+    "unrequited",
+    "untenable",
+    "vicarious",
+    "vile",
+    "waft",
+    "zealous",
+    "uncopyrightable",
+    "bruh"
+
 ]
 
 let answer = '';
@@ -61,14 +140,14 @@ function updateHangmanPicture() {
 
 function checkIfGameWon() {
   if (wordStatus === answer) {
-    document.getElementById('keyboard').innerHTML = 'You Won!!!';
+    document.getElementById('keyboard').innerHTML = 'You Won';
   }
 }
 
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
     document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
-    document.getElementById('keyboard').innerHTML = 'You Lost!!!';
+    document.getElementById('keyboard').innerHTML = 'You Lost';
   }
 }
 
