@@ -4,15 +4,23 @@
         <title>Hangman</title>
         <link rel="icon" type="image/png" href="https://pipe.miroware.io/5dbf825656a97834b15a0352/soulburger.github.io/hangman/hangman%20chalk.gif">
         <link rel="stylesheet" href="style.css">
+        <script src="./main.js"></script>
     </head>
     <body>
+        <h1 class="center">Hangman</h1>
         <div class="box">
-            <h1>COMING SOON</h1>
-            <img src="https://pipe.miroware.io/5dbf825656a97834b15a0352/soulburger.github.io/hangman/hangman%20white%20chalk.gif" class="center">
-        </div>
-        <br>
-        <div class="box">
-            <a href="https://soulburger.github.io/">Back to main page</a>
-        </div>
+            <p>Wrong Guesses: <span id="mistakes">0</span> of <span id="maxWrong">6</span></p>
+            <div class="text-center">
+                <img id='hangmanPic' src="./images/0.gif">
+                <p id="wordSpotlight">Press "Start/Reset" to begin the game</p>
+            </div>
+            </div>
+            <br>
+            <div class="box">
+                <div id="keyboard"></div>
+                <br>
+                <button class="btn btn-info" onClick="reset()">Start/Reset</button>
+            </div>
+        </div> 
     </body>
 <html>
