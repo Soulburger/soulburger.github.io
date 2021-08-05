@@ -40,6 +40,28 @@ a {
 a:hover {
     text-decoration: underline;
 }
+  
+.button {
+    font-size: 16px;
+    font-family: "Courier New";
+    font-weight: bold;
+    background-color: black;
+    border: 3px solid #ffffff;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+  
+.button:hover {
+    border: 3px solid #d8d8d8;
+}
+
+.button:disabled {
+    opacity: 0.4;
+}
 
 h1 {text-align: center;}
 p {text-align: center;}
