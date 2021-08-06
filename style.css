@@ -33,6 +33,26 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {text-align: center;}
-p {text-align: center;}
+table {
+    margin: auto;
+    background-color: var(--color3);
+    border: 15px solid var(--color2);
+    width: 670px;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    border: 10px solid var(--color2);
+    padding: 5px;
+}
+
+td {
+    padding: 15px;
+}
+
+th {
+    padding: 1px;
+}
+
 div {text-align: center;}
