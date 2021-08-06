@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: var(--color1);
     background-image: url("images/hangman-heaven.gif");
 	font-family: "Courier New";
     font-weight: bold;
