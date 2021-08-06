@@ -69,8 +69,6 @@ a:visited {
 }
 
 table {
-    margin: auto;
-    background-color: var(--color3);
     width: 600px;
 }
 table, th, td {
@@ -78,7 +76,7 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: 13px;
+    padding: 20px;
     text-align: center;
 }
 
